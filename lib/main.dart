@@ -40,13 +40,10 @@ class MyApp extends StatelessWidget {
               ),
               child: const ModelViewer(
                 // backgroundColor: Color.fromARGB(255, 192, 23, 23),
-                src: 'assets/3d/1965_ford_mustang_convertible.glb',
+                src: 'assets/3d/honda_nr750_1994.glb',
                 /* - assets/3d/mersedes_cls63.glb
    
-     - assets/3d/bumblebee_prototype_chevrolet_car_3d_model.glb
-     - assets/3d/studio_c_chuck_real_textures.glb
-
-     
+    
 
      - assets/3d/1965_ford_mustang_convertible.glb */
                 alt: 'A 3D model of an astronaut',

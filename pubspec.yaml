@@ -61,28 +61,22 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/3d/mersedes_cls63.glb
     - assets/3d/kia_optima_k5.glb
-    - assets/3d/bumblebee_prototype_chevrolet_car_3d_model.glb
     - assets/3d/2012_chevrolet_camaro_zl1.glb
     - assets/3d/2021_lamborghini_countach_lpi_800-4.glb
     - assets/3d/caminhao_volvo_fh_750.glb
     - assets/3d/honda_nr750_1994.glb
-    - assets/3d/studio_c_chuck_real_textures.glb
     - assets/3d/suzuki_sx4_sportback.glb
     - assets/3d/tesla_roadster_2.0.glb
     - assets/3d/1965_ford_mustang_convertible.glb
   
-    - assets/images/mersedes_cls63.png
     - assets/images/kia_optima_k5.png
-    - assets/images/bumblebee_prototype_chevrolet_car_3d_model.png
     - assets/images/2012_chevrolet_camaro_zl1.png
     - assets/images/2021_lamborghini_countach_lpi_800-4.png
     - assets/images/caminhao_volvo_fh_750.png
     - assets/images/honda_nr750_1994.png
-    - assets/images/studio_c_chuck_real_textures.png
     - assets/images/suzuki_sx4_sportback.png
-    - assets/images/tesla_roadster_2.0.png
+    - assets/images/tesla_roadster_2.png
     - assets/images/1965_ford_mustang_convertible.png
 
   #   - images/a_dot_ham.jpeg
