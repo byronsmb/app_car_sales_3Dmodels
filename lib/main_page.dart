@@ -8,7 +8,7 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 43, 129, 250),
+      backgroundColor: Color.fromARGB(255, 152, 203, 245),
       body: ListView.builder(
         itemCount: 5,
         itemBuilder: (context, index) {
@@ -29,21 +29,26 @@ class MainPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Container(
-                    padding: EdgeInsets.all(16.0),
-                    alignment: Alignment.centerLeft,
-                    child: Text("supportingText"),
-                  ),
-                  ButtonBar(
+                  Text("CAMARA CCC"),
+                  Row(
                     children: [
-                      TextButton(
-                        child: const Text('CONTACT AGENT'),
-                        onPressed: () {/* ... */},
+                      Container(
+                        padding: EdgeInsets.all(16.0),
+                        alignment: Alignment.centerLeft,
+                        child: Text("supportingText"),
                       ),
-                      TextButton(
-                        child: const Text('LEARN MORE'),
-                        onPressed: () {/* ... */},
-                      )
+                      Container(
+                        decoration: BoxDecoration(
+                            border: Border.all(color: Colors.red)),
+                        padding: EdgeInsets.all(4.0),
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          "Detalles",
+                          style: TextStyle(
+                            color: Colors.red,
+                          ),
+                        ),
+                      ),
                     ],
                   )
                 ],
