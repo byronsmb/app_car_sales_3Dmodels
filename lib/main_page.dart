@@ -19,7 +19,7 @@ class MainPage extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(8),
                     child: Container(
-                      height: 200.0,
+                      height: 250.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         image: DecorationImage(
@@ -39,13 +39,14 @@ class MainPage extends StatelessWidget {
                       ),
                       Container(
                         decoration: BoxDecoration(
-                            border: Border.all(color: Colors.red)),
+                            border: Border.all(
+                                color: Color.fromARGB(255, 21, 109, 231))),
                         padding: EdgeInsets.all(4.0),
                         alignment: Alignment.centerLeft,
                         child: Text(
                           "Detalles",
                           style: TextStyle(
-                            color: Colors.red,
+                            color: Color.fromARGB(255, 21, 109, 231),
                           ),
                         ),
                       ),
