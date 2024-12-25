@@ -2,8 +2,9 @@ import 'package:proyecto3d_2/model/auto.dart';
 
 const autosDisponibles = [
   Auto(
-    titulo: "",
-    descripcion: "descripcion",
+    titulo: "Kia K5",
+    descripcion:
+        "El 2024 Kia K5 tiene el estilo y la sustancia para diferenciarlo de otros sedanes familiares medianos. Es increíblemente fácil de conducir y cómodo en viajes más largos gracias a una gran suspensión y una cabina excepcionalmente tranquila. El K5 también ofrece muchas características para el dinero y una larga garantía.",
     imageUrl: "assets/images/kia_optima_k5.png",
   ),
   Auto(
