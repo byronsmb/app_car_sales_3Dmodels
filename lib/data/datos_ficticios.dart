@@ -8,8 +8,8 @@ const autosDisponibles = [
     imageUrl: "assets/images/kia_optima_k5.png",
   ),
   Auto(
-    titulo: "",
-    descripcion: "descripcion",
+    titulo: "2012 Chevrolet Camaro ZL1",
+    descripcion: "Ya está aquí el Camaro de serie más potente de la Historia. Su motor 6.2 LSA small block entrega 580 CV de potencia y un par máximo brutal: 754 Nm. Está sobrealimentado por compresor volumétrico de tipo Roots, con una capacidad de 1,9 litros. Entrega 150 CV más que el legendario 1969 Camaro ZL1 7.0.",
     imageUrl: "assets/images/2012_chevrolet_camaro_zl1.png",
   ),
   Auto(
