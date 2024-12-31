@@ -13,8 +13,8 @@ const autosDisponibles = [
     imageUrl: "assets/images/2012_chevrolet_camaro_zl1.png",
   ),
   Auto(
-    titulo: "",
-    descripcion: "descripcion",
+    titulo: "Lamborghini Countach LPI 800-4",
+    descripcion: "Cincuenta años después de su presentación en el Salón del Automóvil de Ginebra, el legendario Lamborghini Countach vuelve a ser protagonista con una serie limitada híbrida que conmemora el diseño visionario que revolucionó para siempre el panorama de los superdeportivos modernos.",
     imageUrl: "assets/images/2021_lamborghini_countach_lpi_800-4.png",
   ),
   Auto(
