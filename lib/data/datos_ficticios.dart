@@ -37,8 +37,9 @@ const autosDisponibles = [
     imageUrl: "assets/images/suzuki_sx4_sportback.png",
   ),
   Auto(
-    titulo: "",
-    descripcion: "descripcion",
+    titulo: "El Tesla Roadster 2",
+    descripcion:
+        "Es un superdeportivo eléctrico con cuatro plazas desarrollado y fabricado por Tesla Motors. Según Tesla, tendrá 2,1 segundos en la aceleración de 0 a 100 km/h y una autonomía de 1000 km. Motor eléctrico delantero y 2 motores eléctricos traseros.",
     imageUrl: "assets/images/tesla_roadster_2.png",
   ),
   Auto(
