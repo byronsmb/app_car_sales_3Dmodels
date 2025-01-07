@@ -43,8 +43,8 @@ const autosDisponibles = [
     imageUrl: "assets/images/tesla_roadster_2.png",
   ),
   Auto(
-    titulo: "",
-    descripcion: "descripcion",
+    titulo: "Ford Mustang Convertible 1965",
+    descripcion: "El Ford Mustang Convertible 1965 es un auto descapotable de dos puertas, con un motor de 8 cilindros carburado de 289 pulgadas cúbicas (4.6 litros) y transmisión automática. Se trata de un modelo emblemático de la primera generación de producción en serie.",
     imageUrl: "assets/images/1965_ford_mustang_convertible.png",
   ),
 ];
