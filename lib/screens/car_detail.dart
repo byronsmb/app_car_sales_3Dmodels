@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:model_viewer_plus/model_viewer_plus.dart';
 
-class name extends StatelessWidget {
-  const name({super.key});
+class CarDetail extends StatelessWidget {
+  const CarDetail({super.key});
 
   @override
   Widget build(BuildContext context) {
