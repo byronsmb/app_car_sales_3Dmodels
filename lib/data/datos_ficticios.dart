@@ -32,8 +32,9 @@ const autosDisponibles = [
     imageUrl: "assets/images/honda_nr750_1994.png",
   ),
   Auto(
-    titulo: "",
-    descripcion: "descripcion",
+    titulo: "2010 Suzuki SX4 SportBack",
+    descripcion:
+        "El SX4 Suzuki es elogiado por tener un viaje que es más sólido y compuesto que el Honda Fit's. Sobre los baches, el Fit a menudo se siente como el automóvil barato que es, mientras que el SX4 se siente como algo más grande y más orientado a la comodidad, en la línea de un sedán familiar. La compensación es que el SX4 ocasionalmente se siente demasiado suelto y suave cuando se trabaja duro en carreteras difíciles.",
     imageUrl: "assets/images/suzuki_sx4_sportback.png",
   ),
   Auto(
@@ -44,7 +45,8 @@ const autosDisponibles = [
   ),
   Auto(
     titulo: "Ford Mustang Convertible 1965",
-    descripcion: "El Ford Mustang Convertible 1965 es un auto descapotable de dos puertas, con un motor de 8 cilindros carburado de 289 pulgadas cúbicas (4.6 litros) y transmisión automática. Se trata de un modelo emblemático de la primera generación de producción en serie.",
+    descripcion:
+        "El Ford Mustang Convertible 1965 es un auto descapotable de dos puertas, con un motor de 8 cilindros carburado de 289 pulgadas cúbicas (4.6 litros) y transmisión automática. Se trata de un modelo emblemático de la primera generación de producción en serie.",
     imageUrl: "assets/images/1965_ford_mustang_convertible.png",
   ),
 ];
