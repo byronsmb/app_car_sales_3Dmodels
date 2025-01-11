@@ -1,14 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:model_viewer_plus/model_viewer_plus.dart';
+import 'package:proyecto3d_2/model/auto.dart';
 
 class CarDetail extends StatelessWidget {
-  const CarDetail({super.key});
+  const CarDetail({super.key, required this.autoActual});
+  final Auto autoActual;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Model Viewer')),
+      appBar: AppBar(
+        title: Text(
+          "Home",
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.blue[900],
+      ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -32,9 +40,9 @@ class CarDetail extends StatelessWidget {
                 end: Alignment.bottomCenter,
               ),
             ),
-            child: const ModelViewer(
+            child: ModelViewer(
               // backgroundColor: Color.fromARGB(255, 192, 23, 23),
-              src: 'assets/3d/honda_nr750_1994.glb',
+              src: autoActual.model3DUrl, //'assets/3d/honda_nr750_1994.glb',
               /* - assets/3d/mersedes_cls63.glb
    
     
@@ -52,7 +60,7 @@ class CarDetail extends StatelessWidget {
             child: Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                "Mercedes Benz GT",
+                autoActual.titulo, //"Mercedes Benz GT",
                 style: GoogleFonts.nunitoSans(
                   textStyle: Theme.of(context).textTheme.displayLarge,
                   fontSize: 22,
@@ -75,7 +83,7 @@ class CarDetail extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
-                      "Velocidad",
+                      "Año",
                       style: GoogleFonts.kanit(
                           textStyle: Theme.of(context).textTheme.displayLarge,
                           fontSize: 14,
@@ -85,7 +93,7 @@ class CarDetail extends StatelessWidget {
                           ),
                     ),
                     Text(
-                      "120km/h",
+                      "2005",
                       style: GoogleFonts.kanit(
                           textStyle: Theme.of(context).textTheme.displayLarge,
                           fontSize: 19,
@@ -139,7 +147,7 @@ class CarDetail extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
-                      "Velocidad",
+                      "Transmisión",
                       style: GoogleFonts.kanit(
                           textStyle: Theme.of(context).textTheme.displayLarge,
                           fontSize: 14,
@@ -149,7 +157,7 @@ class CarDetail extends StatelessWidget {
                           ),
                     ),
                     Text(
-                      "120km/h",
+                      "Manual",
                       style: GoogleFonts.kanit(
                           textStyle: Theme.of(context).textTheme.displayLarge,
                           fontSize: 19,
@@ -167,7 +175,8 @@ class CarDetail extends StatelessWidget {
             padding: EdgeInsets.symmetric(horizontal: 10),
             child: Container(
               child: Text(
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                autoActual
+                    .descripcion, //"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 style: GoogleFonts.sora(
                     textStyle: Theme.of(context).textTheme.bodySmall,
                     fontSize: 13,

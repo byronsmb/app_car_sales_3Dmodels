@@ -34,7 +34,9 @@ class _MainPageState extends State<MainPage> {
           return InkWell(
             onTap: () {
               Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => CarDetail(),
+                builder: (context) => CarDetail(
+                  autoActual: autosDisponibles[index],
+                ),
               ));
             },
             child: Card(
